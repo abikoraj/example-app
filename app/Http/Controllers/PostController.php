@@ -38,3 +38,4 @@ class PostController extends Controller
         return redirect()->route('posts.index');
     }
 }
+ mhhfmhf,j
