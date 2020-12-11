@@ -10,6 +10,12 @@
     <div>
         @include('layouts.partials._nav')
     </div>
+        @if (session('status'))
+        <div>
+            {{session('status')}}
+        </div>
+
+        @endif
     <div>
         @yield('content')
     </div>
